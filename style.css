@@ -1,22 +1,16 @@
 
     .hover-effect {
-        width: 200px;
-        height: 200px;
-        background-color: #66CDAA;
-        margin: 0 auto;
-        margin-top: 30vh;
-        border: 5px solid #20B2AA;
-        -ms-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+
+        /*-ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);*/
         transform: rotate(45deg);
-        -webkit-transition: all 250ms cubic-bezier(.17,.67,.83,.67);
+        /*-webkit-transition: all 250ms cubic-bezier(.17,.67,.83,.67);*/
         /*put before hover and tells what to do on hover*/
-        transition: all 250ms cubic-bezier(.17,.67,.83,.67);
+        /*transition: all 250ms cubic-bezier(.17,.67,.83,.67);*/
     }
 
     .hover-effect:hover {
-        -ms-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-        border-radius: 50%;
+        /*-ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);*/
+
     }
